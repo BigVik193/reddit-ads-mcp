@@ -1,0 +1,26 @@
+{
+	"name": "reddit-ads-mcp",
+	"version": "1.0.0",
+	"description": "MCP server for Reddit ads management and subreddit analytics",
+	"main": "index.js",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "npx @smithery/cli dev",
+		"build": "npx @smithery/cli build"
+	},
+	"keywords": ["reddit", "ads", "mcp", "analytics"],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.17.4",
+		"axios": "^1.12.1",
+		"dotenv": "^17.2.2",
+		"form-data": "^4.0.4",
+		"zod": "^3.25.46"
+	},
+	"devDependencies": {
+		"@smithery/cli": "^1.2.4",
+		"tsx": "^4.19.4"
+	}
+}

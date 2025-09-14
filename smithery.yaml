@@ -1,0 +1,30 @@
+runtime: typescript
+config:
+  REDDIT_CLIENT_ID:
+    type: string
+    description: "Reddit OAuth2 Client ID"
+    secret: true
+  REDDIT_CLIENT_SECRET:
+    type: string
+    description: "Reddit OAuth2 Client Secret"
+    secret: true
+  REDDIT_USERNAME:
+    type: string
+    description: "Reddit username"
+    secret: true
+  REDDIT_PASSWORD:
+    type: string
+    description: "Reddit password"
+    secret: true
+  REDDIT_USER_AGENT:
+    type: string
+    description: "User agent for Reddit API"
+    default: "mcp-reddit-ads-server:v1.0.0"
+  REDDIT_BEARER_TOKEN:
+    type: string
+    description: "Reddit Ads API Bearer Token"
+    secret: true
+  REDDIT_BUSINESS_ID:
+    type: string
+    description: "Reddit Business ID for ads account access"
+    secret: true
