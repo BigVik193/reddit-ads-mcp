@@ -869,7 +869,7 @@ What do you think? Would love to hear your thoughts!
 
 export const configSchema = z.object({
 	REDDIT_BEARER_TOKEN: z.string().describe("Reddit Ads API Bearer Token"),
-	REDDIT_BUSINESS_ID: z.string().optional().describe("Reddit Business ID for ads account access"),
+	REDDIT_BUSINESS_ID: z.string().describe("Reddit Business ID for ads account access"),
 	GOOGLE_GEMINI_API_KEY: z.string().optional().describe("Google Gemini/Imagen API Key for image generation"),
 	IMGBB_API_KEY: z.string().optional().describe("ImgBB API Key for image hosting"),
 	UPLOADCARE_PUB_KEY: z.string().optional().describe("UploadCare Public Key for image hosting"),
